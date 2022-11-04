@@ -9,7 +9,7 @@ input = sys.stdin.readline
 n, m = map(int, input().split())
 
 # 간선을 저장할 graph, 방문 여부를 기록할 visited
-graph = [[] for _ in range(n+1)]
+graph = [ [] for _ in range(n+1) ]
 visited = [False] * (n+1)
 
 # 간선 입력
