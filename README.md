@@ -2,12 +2,14 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=belif)](https://solved.ac/belif/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdrud2532)](https://solved.ac/wjdrud2532/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=p_kyung)](https://solved.ac/p_kyung/)
 
 <br>
 
-|날짜|번호|제목|난이도|출처|사용언어|문제유형|
+|날짜|번호|제목|난이도|출처|풀이|문제유형|
 |:----:|:----:|:---:|:---:|:---:|:---:|:--------:|
-|22/11/20|[7662](https://www.acmicpc.net/problem/7662)|[이중 우선순위 큐](https://www.acmicpc.net/problem/7662)| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |백준|[`python`](), [`c++`]()|  |
+|22/11/22|[14501](https://www.acmicpc.net/problem/14501)|[퇴사](https://www.acmicpc.net/problem/14501)| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |백준|[`belif_py`](), [`p_kyung_py`](),[`wjdrud2532_c++`]()||
+|22/11/20|[7662](https://www.acmicpc.net/problem/7662)|[이중 우선순위 큐](https://www.acmicpc.net/problem/7662)| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |백준|[`belif_py`](), [`wjdrud2532_c++`]()|브루트포스|
 |22/11/17|[14500](https://www.acmicpc.net/problem/14500)|[테트로미노](https://www.acmicpc.net/problem/14500)| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |백준|[`python`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/Python/14500.py), [`c++`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/c%2B%2B/14500.cpp)|브루트포스|
 |22/11/15|[9019](https://www.acmicpc.net/problem/9019)|[DSLR](https://www.acmicpc.net/problem/9019)| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |백준|[`python`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/Python/9019.py), [`c++`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/c%2B%2B/9019.cpp)|그래프, BFS|
 |22/11/12|[11726](https://www.acmicpc.net/problem/11726)|[2×n 타일링](https://www.acmicpc.net/problem/11726)| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |백준|[`python`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/Python/11726.py), [`c++`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/c%2B%2B/11726.cpp)|DP|
@@ -22,7 +24,7 @@
 양식
 |날짜|번호|제목|난이도|출처|사용언어|문제유형|
 |:----:|:----:|:---:|:---:|:---:|:---:|:--------:|
-|날짜입력하기|[문제번호작성](https://www.acmicpc.net/problem/문제번호넣기)|[문제제목입력](https://www.acmicpc.net/problem/문제번호넣기)| 아래이미지넣기 |백준|[`python`](), [`c++`]()|문제유형작성하기|
+|날짜입력하기|[문제번호작성](https://www.acmicpc.net/problem/문제번호넣기)|[문제제목입력](https://www.acmicpc.net/problem/문제번호넣기)| 아래이미지넣기 |백준|[`belif_py`](), [`p_kyung_py`](), [`wjdrud2532_c++`]()|문제유형작성하기|
 
 <img height="25px" width="25px" src="https://static.solved.ac/tier_small/16.svg"/>  플레5
 <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/>  골드1
