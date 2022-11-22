@@ -1,3 +1,4 @@
+# 퇴사 14501
 # result[i]에는 i번째 날까지 일했을 때의 최댓값을 저장
 # 시간 복잡도 O(n^2)
 
@@ -12,7 +13,6 @@ for i in range(cnt):
     money[i] = m
 
 for i in range(cnt+1):
-    print(result)
     for j in range(i+day[i], cnt+1):
         if (result[j] < money[i] + result[i]):
             result[j] = money[i] + result[i]
