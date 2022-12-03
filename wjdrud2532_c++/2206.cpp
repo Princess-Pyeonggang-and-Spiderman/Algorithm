@@ -18,16 +18,6 @@ int minLength = INT_MAX;
 
 queue<pair<int, int>> WallCoordinate;
 
-
-//재귀로 하지 말고 입력 받은 모든 값들 중 하나의 벽이 없는 상태로
-//가장 빠른 경로
-
-//장애물이 있을 때 가장 빠른 경로를 찾는 알고리즘을 만들고
-//입력 받은 1에 대해 하나씩 최선의 경우를 찾아 그 중 가장 길이가 작은 것을 반환
-
-//한번 벽을 부순 뒤에 상하좌우 이동할 수 없다면 -1 출력하는 예외
-//-> 1을 만나면 return 하는 예외로 변경
-
 int bfs()
 {
     queue<pair<pair<int, int>, int>> tempQ;
