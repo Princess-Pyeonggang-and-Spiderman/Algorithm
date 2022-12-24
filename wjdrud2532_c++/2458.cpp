@@ -9,6 +9,7 @@
 //  INT_MAX/2 - 2 로 하면 정상작동함
 //  근데 확인하기 어려우니까 1000000 으로 설정
 // Clion pullrequest test
+// Clion pullrequest test in mac
 #define INF 1000000
 
 using namespace std;
