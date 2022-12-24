@@ -8,6 +8,7 @@
 //  아마 floyd[i][k] + floyd[k][j]하는 과정에서 오버플로우로 음수값이 나와 제대로 동작하지 않는 것 같음
 //  INT_MAX/2 - 2 로 하면 정상작동함
 //  근데 확인하기 어려우니까 1000000 으로 설정
+// Clion pullrequest test
 #define INF 1000000
 
 using namespace std;
