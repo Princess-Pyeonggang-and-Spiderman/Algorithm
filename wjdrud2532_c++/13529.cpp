@@ -20,7 +20,7 @@ bool isVisit[100001] = {0,};
 
 int BFS()
 {
-    // N의 값, 걸린시간(cost)                                 내림차순 정렬(작은 시간순으로 탐색)
+    // N의 값, 걸린시간(cost)                                 오름차순 정렬(작은 시간순으로 탐색)
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
     //priority_queue<pair<int, int>, vector<pair<int, int>>, compare_pq> q;
 
