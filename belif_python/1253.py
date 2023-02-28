@@ -20,7 +20,6 @@ def binary_search(start, end, x):
 n = int(input())
 numbers = list(map(int, input().split()))
 numbers.sort()
-
 visited = {}
 
 for i in range(n - 1):
