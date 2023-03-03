@@ -6,19 +6,21 @@
 using namespace std;
 
 int N, M;
-vector<pair<int, int>> v[1001];
-int indegree[1001] = {0, };
-int dp[1001];
+vector<pair<int, int> > v[1001];     // v[i]: i 노드에서 갈 수 있는 노드(first) 와 점수(second)
+int indegree[1001] = {0, };         // indegree[i] == 0인 경우 해당 노드로 갈 수 있는 모든 방향을 탐색한 것
+int dp[1001];                       // dp[i]: i 에는 해당 노드가 가질 수 있는 가장 큰 점수 값을 가짐
+int resultList[1001] = {0, };       // 경로 저장을 위한 List
 
-// 1을 가장 마지막에 저장
-// 가장 큰 값을 어디서 가져왔는지 기록
+// 1부터 선택된 경로를 따라 올라가며 끝에서부터 재귀적으로 출력
+// 마지막 1은 무한 재귀를 방지하기 위해 출력하지 않는다
+void printLink(int next)
+{
+    if(resultList[next] != 1)
+        printLink(resultList[next]);
+    cout << resultList[next] << " ";
 
-// resultList[1] 은 이전에 가장 큰 값 4를 가리킴
-// resultList[4] 는 7 ... 이런식으로 저장
-int resultList[1001] = {0, };
-
-//32
-//1 2 5 6 8 7 4 1
+    return ;
+}
 
 int main()
 {
@@ -28,81 +30,49 @@ int main()
 
     cin >> N >> M;
     int start, end, value;
-    for(int i = 0; i < M; i ++)
+    for (int i = 0; i < M; i ++)
     {
         cin >> start >> end >> value;
-
-        indegree[end] ++;   // 이곳에 도달할 수 있는 방법의 수
+        indegree[end] ++;               // 이곳에 도달할 수 있는 방법의 수 ++
 
         // 출발지            도착지  점수
-        v[start].push_back({end, value});
+        v[start].push_back(make_pair(end, value));
     }
 
     queue<int> q;
-//    for(int i = 0; i < v[1].size(); i ++)
-//    //for(int i = 1; i <= N; i ++)
-//    {
-//        q.push(v[1][i]);
-//        dp[q.front().first][0] = q.front().second;
-//    }
+    q.push(1);  // 출발지점 1 push
 
-    q.push(1);
-
-    // 예제대로 가면 지금 2, 3 이 queue에 들어가 있음
-    while(!q.empty())
+    while (! q.empty())
     {
         int current = q.front();
         q.pop();
 
-        for(int i = 0; i < v[current].size(); i ++)
+        for (int i = 0; i < v[current].size(); i ++)
         {
             int next = v[current][i].first;
             indegree[next] --;
 
-            if(dp[current] + v[current][i].second > dp[next])
+            // current에서 도달할 수 있는 next 노드가 가질 수 있는 가장 큰 값을 비교
+            if (dp[current] + v[current][i].second > dp[next])
             {
                 dp[next] = dp[current] + v[current][i].second;
-                resultList[current] = next;
+                resultList[current] = next;     // current에서 어느 노드의 경로를 방문했는지 기록
             }
 
-            // value -> second
-
-            // 현재 next 에서 갖고 있는 값과 새로운 값을 비교하여
-            // 더 큰 값을 next에 저장
-            // 어디에서 가져왔는지를 list에 저장해야함
-
-            //dp 해야함
-            //이 곳과 연결될 수 있는 모든 값들 중에서 가장 큰 값을 찾는다.
-            //next에 해당되는 vector에 값을 push?
-
-            //-> --하는 것은 연결되어 있는 무언가를 처리한 것이므로
-            // --할 때 마다 현재 갖고 있는 값보다 크다면 그것이
-            // 현재 노드에서 가질 수 있는 가장 큰 값이 된다.
-
+            // next가 가질 수 있는 모든 경로를 탐색한 경우 push
             if(indegree[next] == 0)
-            {
-                q.push(next);
-
-
-            }
+                if(next != 1)
+                    // 1을 다시 push 할 경우 v[1]에는 더 이상 방문 가능한 node가 없으므로 종료되기 때문에 1을 제외.
+                    // 그러나 1로 갔을 경우의 dp 값 비교은 위에서 진행하므로 결과값은 문제 없이 나온다.
+                    q.push(next);
         }
     }
-    /*
-     해당 좌표가 가질 수 있는 최대값,
-     이 것과 연결될 수 있는 것들 중 가장 큰 것을 선택
-     */
 
-    for(int i = 0; i <= N; i ++)
-    {
-        cout << dp[i] << " ";
-    }
+    // 최대값 출력
+    cout << dp[1] << "\n";
 
-    cout << "\n";
+    printLink(1);
+    cout << "1\n";      //printLink는 마지막 1을 출력하지 않는다
 
-    for(int i = 0; i <= N; i ++)
-    {
-        cout << resultList[i] << " ";
-    }
-
-
+    return 0;
 }
