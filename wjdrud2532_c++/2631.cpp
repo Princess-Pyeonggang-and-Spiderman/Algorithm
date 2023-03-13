@@ -1,10 +1,10 @@
 #include <iostream>
 #include <algorithm>
+#include <queue>
 
 using namespace std;
 
-int N, MaxLIS;
-int arr[201], dp[201];
+int T, K;
 
 int main()
 {
@@ -12,27 +12,36 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    cin >> N;
-    for(int i = 1; i <= N; i ++)
-    {
-        cin >> arr[i];
-        dp[i] = 1;
-    }
+    cin >> T;
 
-    for(int i = 1; i <= N; i ++)
+    while(T --)
     {
-        for(int j = i; j >= 1; j --)
+        cin >> K;
+
+        priority_queue<long long int, vector<long long int>, greater<long long int> > pq;
+        long long int result = 0;
+
+        int tempnum;
+        for(int i = 0; i < K; i ++)
         {
-            if(arr[i] > arr[j] && dp[j] >= dp[i] - 1)
-            {
-                dp[i] = dp[j] + 1;
-            }
+            cin >> tempnum;
+            pq.push(tempnum);
         }
-        if(dp[i] > MaxLIS)
-            MaxLIS = dp[i];
+
+        long long int num1, num2;
+        while(pq.size() > 1)
+        {
+            num1 = pq.top();
+            pq.pop();
+
+            num2 = pq.top();
+            pq.pop();
+
+            result += (num1 + num2);
+            pq.push(num1 + num2);
+        }
+
+        cout << result << "\n";
     }
-
-    cout << N - MaxLIS << "\n";
-
     return 0;
 }
