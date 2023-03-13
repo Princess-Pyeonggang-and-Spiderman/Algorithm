@@ -1,18 +1,10 @@
 #include <iostream>
 #include <algorithm>
-<<<<<<< HEAD
 #include <queue>
 
 using namespace std;
 
 int T, K;
-=======
-
-using namespace std;
-
-int N, MaxLIS;
-int arr[201], dp[201];
->>>>>>> origin/wjdrud2532
 
 int main()
 {
@@ -20,13 +12,13 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-<<<<<<< HEAD
     cin >> T;
 
     while(T --)
     {
         cin >> K;
 
+        // 우선순위 큐 내림차순으로 정렬
         priority_queue<long long int, vector<long long int>, greater<long long int> > pq;
         long long int result = 0;
 
@@ -43,40 +35,36 @@ int main()
             num1 = pq.top();
             pq.pop();
 
+            // + 4ms
+            //if(pq.empty())
+            //    break;
+
             num2 = pq.top();
             pq.pop();
 
             result += (num1 + num2);
             pq.push(num1 + num2);
+
+
+            /*
+             * + 12 ms
+             * sum = 0;
+
+            sum += pq.top();
+            pq.pop();
+
+            if(pq.empty())
+                break;
+
+            sum += pq.top();
+            pq.pop();
+
+            result += (sum);
+            pq.push(sum);
+             */
         }
 
         cout << result << "\n";
     }
     return 0;
 }
-=======
-    cin >> N;
-    for(int i = 1; i <= N; i ++)
-    {
-        cin >> arr[i];
-        dp[i] = 1;
-    }
-
-    for(int i = 1; i <= N; i ++)
-    {
-        for(int j = i; j >= 1; j --)
-        {
-            if(arr[i] > arr[j] && dp[j] >= dp[i] - 1)
-            {
-                dp[i] = dp[j] + 1;
-            }
-        }
-        if(dp[i] > MaxLIS)
-            MaxLIS = dp[i];
-    }
-
-    cout << N - MaxLIS << "\n";
-
-    return 0;
-}
->>>>>>> origin/wjdrud2532
