@@ -10,7 +10,7 @@
 
 |날짜|이름|
 |:----:|:----:|
-|23/03/13|[이은경(p_kyung)](http://mazassumnida.wtf/api/v2/generate_badge?boj=p_kyung)
+|23/03/13|[이은경(p_kyung)](https://solved.ac/profile/p_kyung)
 <!-- [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=p_kyung)](https://solved.ac/p_kyung/) -->
 <br>
 
