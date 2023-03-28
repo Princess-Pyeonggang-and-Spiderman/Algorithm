@@ -2,7 +2,17 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=belif)](https://solved.ac/belif/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdrud2532)](https://solved.ac/wjdrud2532/)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=p_kyung)](https://solved.ac/p_kyung/)
+
+<br>
+명예의 전당
+<br>
+
+
+|날짜|이름|
+|:----:|:----:|
+|23/03/13|[이은경(p_kyung)](http://mazassumnida.wtf/api/v2/generate_badge?boj=p_kyung)
+<!-- [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=p_kyung)](https://solved.ac/p_kyung/) -->
+<br>
 
 <br>
 
