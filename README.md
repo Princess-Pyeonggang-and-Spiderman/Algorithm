@@ -2,6 +2,7 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=belif)](https://solved.ac/belif/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdrud2532)](https://solved.ac/wjdrud2532/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yountae0214)](https://solved.ac/yountae0214/)
 
 <br>
 명예의 전당
