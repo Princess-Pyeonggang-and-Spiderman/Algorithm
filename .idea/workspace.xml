@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79c2ae3d-cfba-45b3-9419-2486899b2eb0" name="변경" comment="10942 팰린드롬?" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Princess-Pyeonggang-and-Spiderman" />
+        <option name="repository" value="Algorithm" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ffc598f3-44b0-41b7-bde9-32efdd36da29" />
+        <option name="url" value="https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JtQdnvGk1bbk2EM1sx0yz85VD9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/han/GitHub/Algorithm/wjdrud2532_c++&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wjdrud2532_c++" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="79c2ae3d-cfba-45b3-9419-2486899b2eb0" name="변경" comment="" />
+      <created>1672894989765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672894989765</updated>
+      <workItem from="1672894991477" duration="765000" />
+      <workItem from="1672904143073" duration="599000" />
+      <workItem from="1673293417998" duration="48000" />
+      <workItem from="1675228323286" duration="227000" />
+      <workItem from="1675228559362" duration="811000" />
+      <workItem from="1675230080456" duration="3000" />
+      <workItem from="1675346632211" duration="348000" />
+      <workItem from="1675802936079" duration="218000" />
+      <workItem from="1676955787577" duration="1249000" />
+      <workItem from="1676961446641" duration="434000" />
+      <workItem from="1676962197892" duration="599000" />
+      <workItem from="1677060903990" duration="217000" />
+      <workItem from="1677146219112" duration="307000" />
+      <workItem from="1677557583572" duration="1097000" />
+      <workItem from="1678678230486" duration="243000" />
+      <workItem from="1679389528230" duration="68000" />
+      <workItem from="1679636924126" duration="1025000" />
+      <workItem from="1680613111581" duration="664000" />
+      <workItem from="1680786497013" duration="201000" />
+      <workItem from="1681041447577" duration="47000" />
+    </task>
+    <task id="LOCAL-00001" summary="1717">
+      <created>1672895013800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672895013800</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3109 빵집">
+      <created>1675228448514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675228448514</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2812 크개 만들기">
+      <created>1675228458317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675228458317</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2812 크게 만들기">
+      <created>1675228764620</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675228764620</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3109 빵집">
+      <created>1675228772267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675228772267</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2056 작업">
+      <created>1675346780858</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675346780858</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1662 압축">
+      <created>1675803010012</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675803010012</updated>
+    </task>
+    <task id="LOCAL-00008" summary="17144 미세먼지 안녕!">
+      <created>1675803017442</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675803017442</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2631 줄세우기">
+      <created>1676956920968</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676956920968</updated>
+    </task>
+    <task id="LOCAL-00010" summary="16437 양 구출 작전">
+      <created>1678678289633</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678678289633</updated>
+    </task>
+    <task id="LOCAL-00011" summary="4781 사탕 가게">
+      <created>1678678427310</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678678427310</updated>
+    </task>
+    <task id="LOCAL-00012" summary="3089 네입 클로버를 찾아서">
+      <created>1679389569347</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679389569347</updated>
+    </task>
+    <task id="LOCAL-00013" summary="20366 같이 눈사람 만들래?">
+      <created>1679643995318</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679643995318</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1941 소문난 칠공주">
+      <created>1680618277613</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680618277613</updated>
+    </task>
+    <task id="LOCAL-00015" summary="10942 팰린드롬?">
+      <created>1681041470470</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681041470470</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1717" />
+    <MESSAGE value="2812 크개 만들기" />
+    <MESSAGE value="2812 크게 만들기" />
+    <MESSAGE value="3109 빵집" />
+    <MESSAGE value="2056 작업" />
+    <MESSAGE value="1662 압축" />
+    <MESSAGE value="17144 미세먼지 안녕!" />
+    <MESSAGE value="2631 줄세우기" />
+    <MESSAGE value="16437 양 구출 작전" />
+    <MESSAGE value="4781 사탕 가게" />
+    <MESSAGE value="3089 네입 클로버를 찾아서" />
+    <MESSAGE value="20366 같이 눈사람 만들래?" />
+    <MESSAGE value="1941 소문난 칠공주" />
+    <MESSAGE value="10942 팰린드롬?" />
+    <option name="LAST_COMMIT_MESSAGE" value="10942 팰린드롬?" />
+  </component>
+</project>
