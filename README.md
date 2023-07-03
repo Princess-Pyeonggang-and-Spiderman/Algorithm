@@ -1,5 +1,18 @@
 # Algorithm
 
+평강공주와 스파이더맨 이름의 유래: <br>
+
+이 레포지토리의 시작은 C++ 사용자 1명과 파이썬 사용자 1명이었습니다. <br>
+
+전래동화 평강공주에서, 바보 온달은 사람들로부터 기피되거나 외면받는 대상이었습니다. 그러나 평강공주를 만나 잠재력을 일깨우고 금의환향했습니다. <br>
+바보 온달은 신생 언어에 비해 다소 투박하고 어렵지만 무궁무진한 잠재력을 가진 C++와 비슷하기 때문에 그것을 다루는 사람을 평강공주라고 부르기로 했습니다. <br>
+
+비슷한 맥락으로, 모두에게 친숙하고 접근하기 쉬운 파이썬은 마치 우리의 친절한 이웃 스파이더맨과 비슷하기 때문에 파이썬을 다루는 사람을 스파이더맨으로 부르기로 했습니다. <br>
+
+그렇게 평강공주와 스파이더맨의 이야기가 시작되었습니다. <br><br>
+
+
+
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=belif)](https://solved.ac/belif/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wjdrud2532)](https://solved.ac/wjdrud2532/)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yountae0214)](https://solved.ac/yountae0214/)
