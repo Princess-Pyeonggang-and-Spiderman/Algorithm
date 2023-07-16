@@ -29,8 +29,8 @@
 
 <br>
 
-|날짜|번호|                       제목                        |난이도|출처|풀이|문제유형|
-|:----:|:----:|:-----------------------------------------------:|:-----:|:-----:|:---:|:----:|
+|날짜|번호|제목|난이도|출처|풀이|문제유형|
+|:----:|:----:|:---:|:-----:|:-----:|:---:|:----:|
 |23/07/16|[13913](https://www.acmicpc.net/problem/13913)| [숨바꼭질 4](https://www.acmicpc.net/problem/13913) |<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|백준|[`belif_py`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/belif_python/baekjoon/13913.py) <br> [`wjdrud2532_c++`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/wjdrud2532_c%2B%2B/13913.cpp)<br>||
 |23/07/16|[11657](https://www.acmicpc.net/problem/11657)|  [타임머신](https://www.acmicpc.net/problem/11657)  |<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|백준|[`belif_py`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/belif_python/baekjoon/11657.py) <br> [`wjdrud2532_c++`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/wjdrud2532_c%2B%2B/11657.cpp)<br>||
 |23/07/16|[2295](https://www.acmicpc.net/problem/2295)|[세 수의 합](https://www.acmicpc.net/problem/2295)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/>|백준|[`belif_py`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/belif_python/baekjoon/2295.py) <br> [`wjdrud2532_c++`](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/blob/main/wjdrud2532_c%2B%2B/2295.cpp)<br>|이분 탐색, 해시, 맵|
