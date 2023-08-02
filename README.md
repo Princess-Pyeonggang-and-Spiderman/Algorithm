@@ -12,6 +12,8 @@
 그렇게 평강공주와 스파이더맨의 이야기가 시작되었습니다. <br><br>
 
 ![KakaoTalk_20230726_140656835](https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/assets/33623075/bb547777-6750-492b-814d-61d9681e865e)
+<img width="222" alt="스크린샷 2023-08-02 오후 4 46 40" src="https://github.com/Princess-Pyeonggang-and-Spiderman/Algorithm/assets/33623075/9ca46aef-6fd2-4411-884d-9dd204d94b01">
+
 
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=belif)](https://solved.ac/belif/)
